@@ -39,10 +39,17 @@ h2 {
 
 header {
 	text-align: center;
+	/*changes the background color of the header*/
+	background-color: orange;
+	/* adds padding to the header (space between the border and the content)*/
+	padding: 10px
 }
 
 main {
-
+/* added padding (space between border and content)*/
+padding: 20px;
+/*changes the background color of main to the color white*/
+background-color: white;
 }
 
 p {
@@ -54,12 +61,13 @@ p {
 	font-size: 22px;
 }
 
-#automotive, #maritime, #medical, #physics, #myths {
-
-}
 
 #footer-container {
-	
+	/*changes footer background color to the color lightblue*/
+	background-color: lightblue;
+	/*aligns the text to the center of the page but remains at the bottom within the footer*/
+	text-align: center;
+	/* adds 10 pixels of padding to between the border and content of the footer*/
 }
 
 #header-container {
@@ -67,5 +75,10 @@ p {
 }
 
 #main-container {
+
+}
+
+/*moved collection down*/
+#automotive, #maritime, #medical, #physics, #myths {
 
 }
