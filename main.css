@@ -66,6 +66,13 @@ padding: 20px;
 background-color: white;
 }
 
+/*side bar styling*/
+aside {
+	grid-column: 3; /*Right Column*/
+	background-color: lightseagreen; /*changes color of background to light sea green*/
+	padding: 10px; /*adds space between the content and the border*/
+}
+
 p {
 	line-height: 140%;
 	margin-bottom: 1em;
