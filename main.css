@@ -20,6 +20,18 @@ a:focus, a:hover {
 body {
 	font-family: 'Noto Serif', serif;
 	font-size: 18px;
+	/* sets the magin value to 0 which is no space around the border*/
+	margin: 0;
+	/* turns the body into a grid container*/
+	display: grid;
+	/*height for the grid template rows is set to auto and is determined by the content within it,
+	1fr means the main content (middle row) wil take up the remaning space within the container once the rows are auto sized*/
+	grid-template-rows: auto 1fr auto; /*Header, main content, footer*/
+	grid-template-columns: 100%; /*full width for every row ; Header, main content, footer*/
+	/* minimum height set for each row*/
+	/* sets the full height of the viewport, vh means viewport height, setting it to max filles the size of the browser window.
+	this will alwsys fill vertically and will size regardless of inside content, also stops footer from being too high up*/
+	min-height: 100vh;
 }
 
 h1, h2 {
