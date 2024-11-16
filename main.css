@@ -47,6 +47,8 @@ h1 {
 
 h2 {
 	font-size: 2.25rem;
+	/*aligns header #2 to the left in the sections*/
+	text-align: left;
 }
 
 header {
@@ -86,6 +88,17 @@ p {
 	padding: 10px
 }
 
+/*added navigation for separation purposes*/
+nav {
+	grid-column: 1; /*creates the first row of the grid: the left column*/
+	/*changes background color to the color light coral for nav*/
+	background-color: lightcoral;
+	/*adds space between the content and the border by 10px*/
+	padding: 10px;
+
+}
+
+
 #main-container {
 	/*creates the second row of the grid*/
 	grid-row:2;
@@ -100,8 +113,10 @@ p {
 
 
 }
+
 /*moved footer container to the bottom*/
 #footer-container {
+	grid-row: 3; /*creates the last row of the grid*/
 	/*changes footer background color to the color lightblue*/
 	background-color: lightblue;
 	/*aligns the text to the center of the page but remains at the bottom within the footer*/
